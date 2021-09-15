@@ -3,23 +3,17 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Roboto", sans-serif;
-}
-
-.wrapper {
+  width: 80%;
   display: flex;
-  flex-flow: row wrap;
-  text-align: center;
+  flex-flow: wrap;
 }
 
-.wrapper > * {
-  padding: 10px;
-  margin: 10px;
-  flex: 1 1 100%;
-  border-radius: 10px;
+body > * {
+  justify-content: center;
+  flex: 1 1 auto;
 }
 
 @media() {
