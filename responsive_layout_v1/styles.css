@@ -3,18 +3,23 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
   width: 80%;
   display: flex;
   flex-flow: wrap;
 }
 
-body > * {
+.wrapper > * {
   justify-content: center;
   flex: 1 1 auto;
 }
 
-@media() {
+@media (min-width: 768px) {
 }
