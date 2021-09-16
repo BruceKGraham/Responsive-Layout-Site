@@ -1,3 +1,94 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Roboto;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: rgb(250, 245, 245);
+  margin-top: 0;
+  padding: 10px;
+}
+
+.wrapper .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  margin: 10px 5px;
+  padding: 10px;
+  flex-grow: 1;
+  background: rgb(250, 245, 245);
+}
+
+.navbar {
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+li {
+  background: white;
+  margin: 0 5px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  border-left: 10px;
+  border-right: 10px;
+  color: #222222;
+  font-weight: bolder;
+}
+
+.navbar a {
+  font-size: 1.2em;
+  display: block;
+  padding: 10px 15px;
+}
+
+p {
+  font-size: 1.6em;
+  margin-bottom: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portfolio p {
+  color: rgb(90, 90, 90);
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  padding: 5px;
+}
+
+footer {
+  background: rgb(250, 245, 245);
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px;
+}
+
+.footernav {
+  display: none;
+}
+
+@media screen (min-width: 768px) {
+}
